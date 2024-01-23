@@ -26,7 +26,7 @@ class RecipeList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My List of favourite recipes'),
+        title: const Text('Welcome to P-flavor!'),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -34,7 +34,7 @@ class RecipeList extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.all(16.0),
             child: Text(
-              'These are my favourite recipes',
+              'Below is a list of various recipes',
               style: TextStyle(
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold,
@@ -160,6 +160,60 @@ class RecipeList extends StatelessWidget {
               'Taste for salt and add more if needed.',
               'Cover the allow the rice to cook until all the moisture is absorbed.',
               'serve when ready',
+            ],
+          ),
+          RecipeCard(
+            'Spaghetti Carbonara with Roasted Potatoes',
+            'Prepaire spaghetti, potatoes, parmesan cheese',
+            'http://tinyurl.com/yckde4vz',
+            const [
+              '400g spaghetti',
+              '200g bacon or pancetta, diced',
+              '3 large eggs',
+              '1 cup grated parmesan cheese',
+              'salt and black pepper to taste',
+              '3 medium-sized potatoes, peeled and diced',
+              '2 tablespoons olive oil',
+              '1 teaspoon dried rosemary (optional)',
+            ],
+            const [
+              'preheat your oven to 200 degrees Celcius',
+              'Toss the diced potatoes with olive oil, salt and rosemary. Spread them on a baking sheet in a single layer and roast for about 25-30 minutes or untill golden brown and crispy',
+              'In the meantime, cook the spaghetti according to package instructions. Drain and set aside.',
+              'In a pan, cook the diced baconor pancetta untill crisp. Remove from heat and set aside.',
+              'In a bowl, whisk together the eggs and grated paemesan cheese. season with black pepper.',
+              'In a large mixing bowl, combine the cooked spaghetti, crispy bacon, roasted potatoes and the egg mixture. Toss untill the pasta is well coated.',
+              'The heat from the pasta will cook the eggs and create a creamy sauce. Adjust seasoning with salt and pepper.',
+              'Serve the spaghetti Carbonara with Roasted Potatoes immediately, garnished with extra Parmesan cheese if desired.',
+              'Enjoy your flavorful and comforting meal!',
+            ],
+          ),
+          RecipeCard (
+            'Vegetable Samosas',
+            'Mashed potatoes, Samosa wrappers, Chopped mixed Vegetables',
+            'http://tinyurl.com/3we42u2z',
+            const [
+              '2 cups boiled and mashed onions',
+              '1 cup boiled and chopped mixed vegetables (peas, carrots, green beans or of your intrest)',
+              '1/2 cup finely chopped ginger',
+              '1 teaspoon minced garlic',
+              '1/2 teaspoon cumin seeds',
+              '1/2 teaspoon garam masala',
+              '1 teaspoon coriander powder',
+              'Salt to taste',
+              'Chopped cilantro for garnish',
+              '1 package of samosa wrappers',
+            ],
+            const [
+              'Heat oil in a pan and add cumin seeds. Once they splutter, add chopped onions, ginger and garlic. stir until onions are translucent.',
+              'Add tumeric powder, garam masala, coriander powder and salt. Mix well.',
+              'Add boiled and mashed potatoes along with the chopped mixed vegetables. Cook for a few minutes stirring occasionally.',
+              'Allow the filling to cool. Onced cooled, mix in chopped cilantro.',
+              'Preheat the oven to 375 degrees F (190 degrees Celcius).',
+              'Take a samosa wrapper and fold it into a cone shape. Fill it with the vegetable mixture and seal the edges using a little water.',
+              'Place the filled samosas on a baking sheet and bake for 20-25 minutes or until they turn golden brown.',
+              'Serve hot with chutney or sauce of your choice.',
+              'Enjoy your home made vegetable samosas!'
             ],
           ),
         ],
