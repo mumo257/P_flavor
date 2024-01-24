@@ -164,7 +164,7 @@ class RecipeList extends StatelessWidget {
           ),
           RecipeCard(
             'Spaghetti Carbonara with Roasted Potatoes',
-            'Prepaire spaghetti, potatoes, parmesan cheese',
+            'Prepare spaghetti, potatoes, parmesan cheese',
             'http://tinyurl.com/yckde4vz',
             const [
               '400g spaghetti',
@@ -214,6 +214,54 @@ class RecipeList extends StatelessWidget {
               'Place the filled samosas on a baking sheet and bake for 20-25 minutes or until they turn golden brown.',
               'Serve hot with chutney or sauce of your choice.',
               'Enjoy your home made vegetable samosas!'
+            ],
+          ),
+          RecipeCard (
+            'Cherry Lemonade',
+            'Fresh Cherries, Lemons and Ice Cubes',
+            'http://tinyurl.com/2fh83j34',
+            const [
+              '1 cup fresh cherries, pitted and halved',
+              '1 cup freshly squeezed lemon juice',
+              '1/2 cup granulated sugar (adjust to taste)',
+              '4 cups of cold water',
+              'Ice cubes',
+              'Lemon slices and cherries for garnish (Optional)',
+            ],
+            const [
+              'In a blender, puree the fresh cherries until smooth.',
+              'In a pitcher, combine the cherry puree, freshly squeezed lemon juice and granulated sugar. Stir until the sugar is dissolved.',
+              'Add cold water to the pitcher and mix well.',
+              'Taste the lemonade and adjust the sweetness if needed by adding more sugar.',
+              'Refrigerate the lemonade for at least an hour to chil.',
+              'Serve the cherry lemonade over ice and garnish with lemon slices and cherries if desired.',
+              'Enjoy your refreshing homemade cherry lemonade!'
+            ],
+          ),
+          RecipeCard (
+            'Nicoise Salad',
+            'Diced Potatoes, Cherry tomatoes and boiled eggs',
+            'http://tinyurl.com/5n6dcdzd',
+            const [
+              '2cups cherry tomatoes',
+              '1 pound small potatoes, boiled and sliced',
+              '1/2 pound green beans, blanched and into bite-sized piece',
+              '1/2 cup kalamata olives, pitted',
+              '4 hard-boiled eggs, sliced',
+              '1 can (7 oz) tuna, drained',
+              '1/4 cup red onion, thinly sliced',
+              '4 cups mixed salad greens',
+              '1/4 cup extra-virgin olive oil',
+              '2 tablespoon dijon mustard',
+              'salt and pepper to taste',
+            ],
+            const [
+              'In a large bowl, arrange the salad greens as the base.',
+              'Arrange the cherry tomatoes, sliced potatoes, green beans, olives, sliced eggs, tuna and red onion on top of the greens.',
+              'In a small bowl, whisk together the olive oil, red wine vinegar, Dijon mustard, salt and pepper to make the vinaigrette.',
+              'Drizzle the vinaigrette over the salad.',
+              'Toss gently to combine or serve as a composed salad.',
+              'Serve immediately and enjoy your Nicoise salad.',
             ],
           ),
         ],
@@ -279,7 +327,7 @@ class RecipeDetails extends StatelessWidget {
             Image.network(
               imageUrl,
               width: double.infinity,
-              height: 200.0,
+              height: 170.0,
               fit: BoxFit.cover,
             ),
             Padding(
